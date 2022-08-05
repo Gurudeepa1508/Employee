@@ -41,7 +41,7 @@ public class Student{
             if(choice==2)
             {
                 try{
-                    String Q="select * from sample";
+                    String Q="select * from sample ";
                     PreparedStatement ps=connection.prepareStatement(Q);
                     ResultSet rs=ps.executeQuery();
                     while(rs.next()){
@@ -55,7 +55,9 @@ public class Student{
                 {
                     throwables.printStackTrace();
                 }
+
             }
+            System.out.println("enter 1 to continue");
             i=inp.nextInt();
 
         }
