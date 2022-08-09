@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Sample:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sample_jar</output-path>
+    <root id="archive" name="Sample.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Sample" />
+      <element id="module-test-output" name="Sample" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
